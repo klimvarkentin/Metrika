@@ -1,0 +1,84 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.container {
+    padding: 125px;
+    margin: 0 auto;
+    width: 1400px;
+    background-color: #FFFFFF;
+}
+
+.heading {
+    margin-bottom: 150px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    width: 956px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.room {
+    padding-left: 40px;
+    padding-top: 379px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resources/Rectangle\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.room-text {
+    width: 430px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.studio {
+    margin-bottom: 30px;
+    width: 1048px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #121212;
+}
+
+a {
+    display: block;
+    text-align: center;
+    width: 255px;
+    height: 67px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 67px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #AD1818;
+    color: #FFFFFF;
+}
+
+a:hover {
+    cursor: pointer;
+}

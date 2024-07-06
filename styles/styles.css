@@ -1,11 +1,14 @@
 body {
     font-family: 'Manrope', sans-serif;
+}
+
+.container {
     width: 100%;
     background-color: #F5F5F5;
 }
 
-.container {
-    padding: 125px;
+.section {
+    padding: 125px 125px 150px;
     margin: 0 auto;
     width: 1400px;
     background-color: #FFFFFF;
@@ -21,36 +24,44 @@ h1 {
     font-size: 60px;
     font-weight: 400;
     line-height: 60px;
-    letter-spacing: -0.03em;
     color: #121212;
 }
 
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
 .room {
-    padding-left: 40px;
-    padding-top: 379px;
+    position: relative;
     width: 1150px;
     height: 500px;
-    background-image: url('../resources/Rectangle\ 1.jpg');
+    background-image: url('../resources/room.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.room-text {
+.room__text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
     width: 430px;
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
 }
 
-h2 {
+.about-us {
+    width: 1051px;
+    height: 518px;
+    margin-bottom: 133px;
+}
+
+.about-us__title {
     margin-bottom: 30px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
     color: #121212;
 }
 
@@ -65,7 +76,7 @@ h2 {
     color: #121212;
 }
 
-a {
+.view-services {
     display: block;
     text-align: center;
     width: 255px;
@@ -79,6 +90,88 @@ a {
     color: #FFFFFF;
 }
 
-a:hover {
+.view-services:hover {
     cursor: pointer;
+}
+
+.item {
+    margin-bottom: 90px;
+    width: 1150px;
+    height: 548px;
+}
+
+.projects {
+    margin-bottom: 30px;
+    color: #121212;
+}
+
+.item__pic {
+    display: block;
+    margin-bottom: 15px;
+    width: 1150px;
+    height: 450px;
+}
+
+.item__text {
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+}
+
+.show-more {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-decoration: none;
+    color: #AD1818;
+}
+
+.view-all-projects {
+    display: block;
+    width: 100%;
+    height: 153px;
+    color: #AD1818;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 153px;
+    background-color: #F5F5F5;
+    border: 1px solid #AD1818;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.view-all-projects:hover {
+    cursor: pointer;
+    background-color: #AD1818;
+    color: #FFF;
+}
+
+.section__black {
+    padding: 150px 125px;
+    background-color: rgb(18, 18, 18);
+}
+
+.services {
+    margin-bottom: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.service {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 270px;
+}
+
+.service__text {
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    color: rgb(255, 255, 255);
+}
+
+.service__text:last-child {
+    margin-bottom: 0px;
 }

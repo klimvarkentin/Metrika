@@ -8,9 +8,12 @@ body {
 }
 
 .section {
-    padding: 125px 125px 150px;
     margin: 0 auto;
     width: 1400px;
+}
+
+.section__white {
+    padding: 125px 125px 150px;
     background-color: #FFFFFF;
 }
 
@@ -100,7 +103,7 @@ h2 {
     height: 548px;
 }
 
-.projects {
+.projects__heading {
     margin-bottom: 30px;
     color: #121212;
 }

@@ -2,6 +2,52 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+.nav__section {
+    margin-bottom: 71px;
+    min-width: 1150px;
+}
+
+.nav__container {
+    position: relative;
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.logo {
+    display: block;
+    width: 126px;
+    height: 21px;
+}
+
+.logo-link {
+    display: inline-block;
+    position: absolute;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav__link {
+    display: inline-block;
+    margin-left: 61px;
+   
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #121212;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link:first-child {
+    margin-left: 676px;
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
 .container {
     width: 100%;
     background-color: #F5F5F5;
@@ -13,7 +59,7 @@ body {
 }
 
 .section__white {
-    padding: 125px 125px 150px;
+    padding: 33px 125px 150px;
     background-color: #FFFFFF;
 }
 

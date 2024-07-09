@@ -1,5 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
+    font-weight: 400;
 }
 
 .nav__section {
@@ -44,8 +49,11 @@ body {
 
 .nav__link:first-child {
     margin-left: 676px;
-    text-decoration: underline;
+}
+
+.nav__link-active:hover {
     opacity: 0.5;
+    text-decoration: underline;
 }
 
 .container {
@@ -223,4 +231,25 @@ h2 {
 
 .service__text:last-child {
     margin-bottom: 0px;
+}
+
+.onebedroom__section {
+    position: relative;
+    height: 717px;
+    background-image: url('/resources/1bedroom-apartment.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.onebedroom__container {
+    position: absolute;
+    width: 443px;
+    top: 575px;
+    right: 832px;
+    bottom: 60px;
+    left: 125px;
+    font-size: 30px;
+    line-height: 41px;
+    color: rgb(255, 255, 255);
 }

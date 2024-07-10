@@ -253,3 +253,43 @@ h2 {
     line-height: 41px;
     color: rgb(255, 255, 255);
 }
+
+#contacts {
+    padding: 186px 809px 151px 124px;
+}
+
+.contacts {
+    width: 467px;
+}
+
+.contacts__heading {
+    position: relative;
+    margin-bottom: 33px;
+}
+
+.contacts__heading::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 36px;
+    background-image: url('/resources/cellphone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 13px;
+    height: 22px;
+}
+
+.contacts__number {
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+}
+
+.contacts__email {
+    font-size: 60px;
+    line-height: 60px;
+    color: rgba(18, 18, 18, 0.5);
+}

@@ -37,7 +37,6 @@ body {
 .nav__link {
     display: inline-block;
     margin-left: 61px;
-   
     height: 24px;
     line-height: 24px;
     font-size: 18px;
@@ -292,4 +291,27 @@ h2 {
     font-size: 60px;
     line-height: 60px;
     color: rgba(18, 18, 18, 0.5);
+}
+
+.nav__section-footer {
+    padding: 60px 0 30px 0;
+}
+
+.nav__footer {
+    margin-bottom: 88px;
+}
+
+.nav__link-footer {
+    color: rgb(255, 255, 255);
+}
+
+.nav__link-footer:first-child {
+    margin-left: 345px;
+}
+
+.footer__text {
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
 }

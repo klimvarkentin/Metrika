@@ -235,7 +235,7 @@ h2 {
 .onebedroom__section {
     position: relative;
     height: 717px;
-    background-image: url('../resources/1bedroom-apartment.png');
+    background-image: url('../resources/1bedroom-apartment.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -271,7 +271,7 @@ h2 {
     display: block;
     position: absolute;
     bottom: 36px;
-    background-image: url('../resources/cellphone.png');
+    background-image: url('../resources/cellphone.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;

@@ -20,8 +20,8 @@ body {
 
 .logo {
     display: block;
-    width: 126px;
-    height: 21px;
+    width: 127px;
+    height: 22px;
 }
 
 .logo-link {
@@ -32,11 +32,12 @@ body {
 .nav {
     display: inline-block;
     vertical-align: top;
+    width: 100%;
 }
 
 .nav__link {
     display: inline-block;
-    margin-left: 61px;
+    margin-left: 58px;
     height: 24px;
     line-height: 24px;
     font-size: 18px;
@@ -47,7 +48,7 @@ body {
 }
 
 .nav__link:first-child {
-    margin-left: 676px;
+    margin-left: 685px;
 }
 
 .nav__link-active:hover {
@@ -66,7 +67,7 @@ body {
 }
 
 .section__white {
-    padding: 33px 125px 150px;
+    padding: 37px 125px 150px;
     background-color: #FFFFFF;
 }
 
@@ -78,7 +79,6 @@ h1 {
     margin-bottom: 30px;
     width: 956px;
     font-size: 60px;
-    font-weight: 400;
     line-height: 60px;
     color: #121212;
 }
@@ -105,7 +105,6 @@ h2 {
     bottom: 40px;
     width: 430px;
     font-size: 20px;
-    font-weight: 400;
     line-height: 27px;
     color: #FFFFFF;
 }
@@ -113,7 +112,7 @@ h2 {
 .about-us {
     width: 1051px;
     height: 518px;
-    margin-bottom: 133px;
+    margin-bottom: 150px;
 }
 
 .about-us__title {
@@ -122,13 +121,12 @@ h2 {
 }
 
 .about-us__text {
-    margin-bottom: 30px;
+    margin-bottom: 29px;
+    margin-left: 4px;
     width: 1048px;
     font-size: 45px;
     font-weight: 400;
     line-height: 61px;
-    letter-spacing: -0.03em;
-    text-align: left;
     color: #121212;
 }
 
@@ -163,23 +161,24 @@ h2 {
 
 .item__pic {
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 21px;
     width: 1150px;
     height: 450px;
 }
 
 .item__text {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 30px;
-    font-weight: 400;
     color: #000;
 }
 
 .item__link {
+    margin-left: 2px;
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
     text-decoration: none;
+    text-align: left;
     color: #AD1818;
 }
 
@@ -192,7 +191,7 @@ h2 {
     font-size: 30px;
     font-weight: 400;
     line-height: 153px;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     border: 1px solid #AD1818;
     text-decoration: none;
     border-radius: 5px;
@@ -205,22 +204,24 @@ h2 {
 }
 
 .section__black {
-    padding: 150px 125px;
+    padding: 150px 124px 90px;
     background-color: rgb(18, 18, 18);
 }
 
-.services {
-    margin-bottom: 35px;
+.services__heading {
+    margin-left: 3px;
+    margin-bottom: 34px;
     color: rgb(255, 255, 255);
 }
 
-.service {
-    margin-bottom: 15px;
+.services__img {
+    margin-bottom: 13px;
     width: 100%;
     height: 270px;
 }
 
-.service__text {
+.services__text {
+    margin-left: 5px;
     margin-bottom: 60px;
     font-size: 30px;
     font-weight: 400;
@@ -254,7 +255,7 @@ h2 {
 }
 
 #contacts {
-    padding: 186px 809px 151px 124px;
+    padding: 186px 809px 163px 125px;
 }
 
 .contacts {
@@ -263,20 +264,20 @@ h2 {
 
 .contacts__heading {
     position: relative;
-    margin-bottom: 33px;
+    margin-bottom: 31px;
 }
 
 .contacts__heading::before {
     content: '';
     display: block;
     position: absolute;
-    bottom: 36px;
+    bottom: 37px;
     background-image: url('../resources/cellphone.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
-    width: 13px;
-    height: 22px;
+    width: 15px;
+    height: 24px;
 }
 
 .contacts__number {
@@ -290,11 +291,12 @@ h2 {
 .contacts__email {
     font-size: 60px;
     line-height: 60px;
+    font-weight: 400px;
     color: rgba(18, 18, 18, 0.5);
 }
 
 .nav__section-footer {
-    padding: 60px 0 30px 0;
+    padding: 61px 0 40px 6px;
 }
 
 .nav__footer {
@@ -302,11 +304,12 @@ h2 {
 }
 
 .nav__link-footer {
+    margin-left: 53px;
     color: rgb(255, 255, 255);
 }
 
 .nav__link-footer:first-child {
-    margin-left: 345px;
+    margin-left: 342px;
 }
 
 .footer__text {

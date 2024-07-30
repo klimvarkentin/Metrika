@@ -67,8 +67,14 @@ body {
 }
 
 .section__white {
+    width: 1400px;
     padding: 33px 125px 150px;
     background-color: #FFFFFF;
+}
+
+.section-inner {
+    width: 1150px;
+    height: 3453px;
 }
 
 .heading {
@@ -85,7 +91,6 @@ h1 {
 
 h2 {
     font-size: 18px;
-    font-weight: 400;
     line-height: 25px;
     text-transform: uppercase;
 }
@@ -96,7 +101,8 @@ h2 {
     height: 500px;
     background-image: url('../resources/room.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: 50%;
 }
 
 .room__text {
@@ -111,7 +117,6 @@ h2 {
 
 .about-us {
     width: 1051px;
-    height: 518px;
     margin-bottom: 150px;
 }
 
@@ -125,7 +130,6 @@ h2 {
     margin-left: 4px;
     width: 1048px;
     font-size: 45px;
-    font-weight: 400;
     line-height: 61px;
     color: #121212;
 }
@@ -134,7 +138,6 @@ h2 {
     display: block;
     text-align: center;
     width: 255px;
-    height: 67px;
     font-size: 20px;
     font-weight: 400;
     line-height: 67px;
@@ -151,7 +154,6 @@ h2 {
 .item {
     margin-bottom: 90px;
     width: 1150px;
-    height: 548px;
 }
 
 .projects__heading {
@@ -159,15 +161,16 @@ h2 {
     color: #121212;
 }
 
+
 .item__pic {
     display: block;
     margin-bottom: 21px;
     width: 1150px;
-    height: 450px;
 }
 
 .item__text {
     margin-bottom: 20px;
+    width: 506px;
     font-size: 30px;
     color: #000;
 }
@@ -201,6 +204,181 @@ h2 {
     cursor: pointer;
     background-color: #AD1818;
     color: #FFF;
+}
+
+@media (max-width: 1199px) {
+     .section, .section__white {
+        width: 100%;
+    }
+
+    .section__white {
+        padding: 33px 17px 0 15px;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        width: 802px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .room {
+        width: 100%;
+        height: 400px;
+        background-image: url('../resources/room-tablet.png');
+    }
+
+    .room__text {
+        left: 42px;
+        bottom: 30px;
+        width: 430px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .heading {
+        margin-bottom: 120px;
+    }
+
+    .about-us {
+        width: 693px;
+        margin-bottom: 100px;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .about-us__text {
+        margin-bottom: 29px;
+        margin-left: 0;
+        width: 690px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .about-us__link{
+        width: 249px;
+        height: 67px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 67px;
+    }
+
+    .item {
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+    .item__pic {
+        margin-bottom: 15px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .item__text {
+        margin-bottom: 9px;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .view-all-projects {
+        height: 100px;
+        font-size: 30px;
+        line-height: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section__white {
+        padding: 33px 14px 0 13px;
+    }
+
+    .section-inner {
+        width: 100%;
+    }
+
+    h1 {
+        margin-bottom: 25px;
+        width: 100%;
+        font-size: 30px;
+        line-height: 31.62px;
+    }
+
+    .room__text {
+        left: 15px;
+        bottom: 15px;
+        width: 312px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .heading {
+        margin-bottom: 80px;
+    }
+
+    .about-us {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .about-us__title {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .about-us__text {
+        margin-bottom: 29px;
+        margin-left: 0;
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .about-us__link{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 65px;
+    }
+
+    .item {
+        margin-bottom: 49px;
+        width: 100%;
+    }
+
+    .item__pic {
+        margin-bottom: 20px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .item__text {
+        margin-bottom: 12px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .item__link {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .view-all-projects {
+        height: 100px;
+        font-size: 22px;
+        line-height: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .room {
+        width: 100%;
+        height: 304px;
+        background-image: url('../resources/room-mobile.png');
+    }
 }
 
 .section__black {

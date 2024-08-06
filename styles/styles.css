@@ -1,15 +1,15 @@
-@import "/styles/header.css";
-@import "/styles/room.css";
-@import "/styles/titles.css";
-@import "/styles/buttons-links.css";
-@import "/styles/nav.css";
-@import "/styles/about-us.css";
-@import "/styles/projects.css";
-@import "/styles/services.css";
-@import "/styles/feedback.css";
-@import "/styles/onebedroom.css";
-@import "/styles/contacts.css";
-@import "/styles/footer.css";
+@import "styles/header.css";
+@import "styles/room.css";
+@import "styles/titles.css";
+@import "styles/buttons-links.css";
+@import "styles/nav.css";
+@import "styles/about-us.css";
+@import "styles/projects.css";
+@import "styles/services.css";
+@import "styles/feedback.css";
+@import "styles/onebedroom.css";
+@import "styles/contacts.css";
+@import "styles/footer.css";
 
 
 html {

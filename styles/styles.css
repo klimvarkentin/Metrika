@@ -1,15 +1,15 @@
-@import url('headings.css');
-@import url('buttons-links.css');
-@import url('nav.css');
-@import url('contacts.css');
-@import url('footer.css');
-@import url('onebedroom.css');
-@import url('services.css');
-@import url('feedback.css');
-@import url('projects.css');
-@import url('room.css');
-@import url('about-us.css');
-@import url('header.css');
+@import url('/styles/headings.css');
+@import url('/styles/buttons-links.css');
+@import url('/styles/nav.css');
+@import url('/styles/contacts.css');
+@import url('/styles/footer.css');
+@import url('/styles/onebedroom.css');
+@import url('/styles/services.css');
+@import url('/styles/feedback.css');
+@import url('/styles/projects.css');
+@import url('/styles/room.css');
+@import url('/styles/about-us.css');
+@import url('/styles/header.css');
 
 html {
     scroll-behavior: smooth;

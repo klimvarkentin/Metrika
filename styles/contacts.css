@@ -1,0 +1,35 @@
+#contacts {
+    padding: 186px 809px 163px 125px;
+}
+
+.contacts {
+    width: 467px;
+}
+
+.contacts__heading::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 37px;
+    background-image: url('../resources/cellphone.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 15px;
+    height: 24px;
+}
+
+.contacts__number {
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+}
+
+.contacts__email {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400px;
+    color: rgba(18, 18, 18, 0.5);
+}

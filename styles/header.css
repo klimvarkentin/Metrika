@@ -1,0 +1,65 @@
+.header {
+    margin-bottom: 150px;
+}
+
+.room {
+    position: relative;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resources/room.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.room__text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1199px) {
+    .heading {
+        margin-bottom: 120px;
+    }
+
+    .room {
+        width: 100%;
+        height: 400px;
+        background-image: url('../resources/room-tablet.png');
+    }
+
+    .room__text {
+        left: 42px;
+        bottom: 30px;
+        width: 430px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 767px) {
+    .room__text {
+        left: 15px;
+        bottom: 15px;
+        width: 312px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .heading {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 500px) {
+    .room {
+        width: 100%;
+        height: 304px;
+        background-image: url('../resources/room-mobile.png');
+    }
+}

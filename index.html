@@ -16,7 +16,7 @@
 <body>
     <div class="container">
     
-        <div class="container-adaptive">
+        
             <div class="section section__white">
                 <div class="section__inner">
                     <!-- <section class="nav__section">
@@ -33,7 +33,7 @@
                         </div>
                     </section> -->
 
-                    <section class="heading">
+                    <section class="header">
                         <h1>Современные и стильные интерьеры для комфортной жизни</h1>
                             <div class="room">
                                 <p class="room__text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
@@ -41,15 +41,15 @@
                     </section>
 
                     <section id="about-us" class="about-us">
-                        <h2 class="about-us__title">О нас</h2>
+                        <h2>О нас</h2>
                         <p class="about-us__text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
                         <a class="about-us__link" href="#">Посмотреть услуги</a>
                     </section>
 
                     <section id="projects" class="projects">
-                        <h2 class="projects__heading">Проекты</h2>
+                        <h2>Проекты</h2>
                         <ul>
-                            <li class="item">
+                            <li class="projects__item">
                                 <picture>
                                     <source 
                                     media="(max-width: 500px)"
@@ -66,7 +66,7 @@
                                 <a class="item__link" href="#">Подробнее →</a>
                             </li>
                         
-                            <li class="item">
+                            <li class="projects__item">
                                 <picture>
                                     <source 
                                     media="(max-width: 500px)"
@@ -83,7 +83,7 @@
                                 <a class="item__link" href="#">Подробнее →</a>
                             </li>
                         
-                            <li class="item">
+                            <li class="projects__item">
                                 <picture>
                                     <source 
                                     media="(max-width: 500px)"
@@ -104,24 +104,114 @@
                     </section>
                 </div> 
             </div>
-        </div>
-        <!--
+       
         <section id="services" class="section section__black">
             <h2 class="services__heading">Услуги</h2>
 
-            <img class="services__img" src="resources/planning-decision.jpg" alt="Планировочное решение">
-            <p class="services__text">Планировочное решение — от 2500₽/м²</p>
-
-            <img class="services__img" src="resources/design-project.jpg" alt="Дизайн-проект">
-            <p class="services__text">Дизайн-проект — от 3000₽/м²</p>
-
-            <img class="services__img" src="resources/architectural-supervision.jpg" alt="Авторский надзор">
-            <p class="services__text">Авторский надзор — от 30 000₽ в месяц</p>
-
-            <img class="services__img" src="resources/equipment.jpg" alt="Комплектация">
-            <p class="services__text">Комплектация — 5% от стоимости спецификации</p>
+            <ul class="services__container">
+                <li class="services__item">
+                    <picture>
+                        <source 
+                        media="(max-width: 500px)"
+                        srcset="resources/planning-decision-mobile.png">
+                        <source 
+                        media="(max-width: 1199px)"
+                        srcset="resources/planning-decision-tablet.png"> 
+                        <img class="services__image" 
+                        src="resources/planning-decision.jpg" 
+                        alt="Планировочное решение">
+                    </picture>
+                    <div class="services__price">от 2500₽/м²</div>
+                    <div class="services__text">Планировочное решение</div>
+                </li>
+                <li class="services__item">
+                    <picture>
+                        <source 
+                        media="(max-width: 500px)"
+                        srcset="resources/design-project-mobile.png">
+                        <source 
+                        media="(max-width: 1199px)"
+                        srcset="resources/design-project-tablet.png"> 
+                        <img 
+                        class="services__image" 
+                        src="/resources/design-project.jpg" 
+                        alt="Дизайн-проект">
+                    </picture>
+                    <div class="services__price">от 3000₽/м²</div>
+                    <div class="services__text">Дизайн-проект</div>
+                </li>
+                <li class="services__item">
+                    <picture>
+                        <source 
+                        media="(max-width: 500px)"
+                        srcset="resources/architectural-supervision-mobile.png">
+                        <source 
+                        media="(max-width: 1199px)"
+                        srcset="resources/architectural-supervision-tablet.png"> 
+                        <img 
+                        class="services__image" 
+                        src="/resources/architectural-supervision.jpg" 
+                        alt="Авторский надзор">
+                    </picture>
+                    <div class="services__price">от 30 000₽/мес</div>
+                    <div class="services__text">Авторский надзор</div>
+                </li>
+                <li class="services__item">
+                    <picture>
+                        <source 
+                        media="(max-width: 500px)"
+                        srcset="resources/equipment-mobile.png">
+                        <source 
+                        media="(max-width: 1199px)"
+                        srcset="resources/equipment-tablet.png"> 
+                        <img 
+                        class="services__image" 
+                        src="/resources/equipment.jpg" 
+                        alt="Комплектация">
+                    </picture>
+                    <div class="services__price">5% от стоимости</div>
+                    <div class="services__text">Комплектация</div>
+                </li>
+            </ul>
+            <button class="services__button">Заказать услугу</button>
         </section>
 
+        <section class="section section__white section__feedback">
+            <div class="feedback">
+                <h2>Отзывы</h2>
+                <ul class="feedback__row">
+                    <li class="feedback__column">
+                       
+                            <h3 class="feedback__heading">Ксения, проект 65 кв.м.</h3>
+                            <p class="feedback__text">Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы хотим и даже больше! <br>
+                                <br>
+                                Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!
+                            </p>
+                        
+                    </li>
+                    <li class="feedback__column">
+                        
+                            <h3 class="feedback__heading">Регина, проект 89 кв.м.</h3>
+                            <p class="feedback__text">Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера! <br>
+                                <br>
+                                Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!
+                            </p>
+                        
+                    </li>
+                    <li class="feedback__column">
+                        
+                            <h3 class="feedback__heading">Яна, проект 120 кв.м.</h3>
+                            <p class="feedback__text">Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более подходящим. <br>
+                                <br>
+                                В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем, кому еще предстоит это непростое дело - ремонт!
+                            </p>
+                        
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+         <!--
         <div class="section onebedroom__section">
             <div class="onebedroom__container">
                 <p class="onebedroom__text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>

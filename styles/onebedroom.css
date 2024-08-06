@@ -1,0 +1,20 @@
+.onebedroom__section {
+    position: relative;
+    height: 717px;
+    background-image: url('../resources/1bedroom-apartment.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.onebedroom__container {
+    position: absolute;
+    width: 443px;
+    top: 575px;
+    right: 832px;
+    bottom: 60px;
+    left: 125px;
+    font-size: 30px;
+    line-height: 41px;
+    color: rgb(255, 255, 255);
+}

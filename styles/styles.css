@@ -1,14 +1,14 @@
-@import url('header.css');
-@import url('about-us.css');
-@import url('buttons-links.css');
-@import url('titles.css');
-@import url('contacts.css');
-@import url('feedback.css');
-@import url('footer.css');
-@import url('nav.css');
-@import url('onebedroom.css');
-@import url('projects.css');
-@import url('services.css');
+@import "./about-us.css";
+@import "./buttons-links.css";
+@import "./contacts.css";
+@import "./feedback.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./nav.css";
+@import "./onebedroom.css";
+@import "./projects.css";
+@import "./services.css";
+@import "./titles.css";
 
 
 html {

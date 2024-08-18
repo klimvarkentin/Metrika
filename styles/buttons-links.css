@@ -93,15 +93,6 @@
     cursor: pointer;
 }
 
-.nav__link-footer {
-    margin-left: 53px;
-    color: rgb(255, 255, 255);
-}
-
-.nav__link-footer:first-child {
-    margin-left: 342px;
-}
-
 @media (max-width: 1199px) {
     .about-us__link{
         width: 249px;

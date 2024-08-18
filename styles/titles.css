@@ -26,7 +26,7 @@ h2 {
 }
 
 .contacts__heading {
-    position: relative;
+    margin-bottom: 75px;
 }
 
 @media (max-width: 1199px) {

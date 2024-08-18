@@ -1,35 +1,102 @@
 #contacts {
-    padding: 186px 809px 163px 125px;
+    padding: 150px 289px 150px 125px;
 }
 
-.contacts {
-    width: 467px;
-}
-
-.contacts__heading::before {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 37px;
-    background-image: url('../resources/cellphone.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    width: 15px;
-    height: 24px;
+.contacts__row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 110px;
 }
 
 .contacts__number {
-    margin-bottom: 30px;
+    position: relative;
+    width: 466px;
     font-size: 60px;
     line-height: 60px;
     color: rgb(18, 18, 18);
     text-decoration: none;
 }
 
+.contacts__number:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -5px;
+    bottom: 84px;
+    background-image: url('../resources/cellphone.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 24px;
+    height: 24px;
+}
+
 .contacts__email {
+    position: relative;
+    width: 417px;
     font-size: 60px;
     line-height: 60px;
     font-weight: 400px;
     color: rgba(18, 18, 18, 0.5);
+}
+
+.contacts__email:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 84px;
+    background-image: url('../resources/mail.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 1199px) {
+    #contacts {
+        padding: 120px 166px 120px 15px;
+    }
+
+    .contacts__row {
+        column-gap: 119px;
+    }
+
+    .contacts__number {
+        width: 349px;
+        font-size: 45px;
+    }
+
+    .contacts__email {
+        width: 294px;
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    #contacts {
+        padding: 80px 92px 81px 9px;
+    }
+
+    .contacts__row {
+        flex-direction: column;
+        column-gap: 0px;
+        column-gap: 119px;
+    }
+
+    .contacts__number {
+        width: 272px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .contacts__email {
+        width: 229px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .contacts__number:before, .contacts__email:before {
+        bottom: 20px;
+    }
 }

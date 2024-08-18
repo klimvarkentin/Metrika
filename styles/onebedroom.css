@@ -1,20 +1,161 @@
-.onebedroom__section {
+.gallery {
+    position: relative;
+}
+
+.gallery__title-wrapper {
+    position: absolute;
+    top: 67px;
+    left: 125px;
+    z-index: 2;
+}
+
+.gallery__title {
+    font-size: 22px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.gallery__slides {
     position: relative;
     height: 717px;
-    background-image: url('../resources/1bedroom-apartment.jpeg');
+}
+
+.gallery__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.gallery__slide-active {
+    opacity: 1;
+}
+
+.gallery__box {
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
 }
 
-.onebedroom__container {
+.gallery__box-onebedroom {
+    background-image: url('../resources/onebedroom.png');
+}
+
+.gallery__box-livingroom {
+    background-image: url('../resources/livingroom.png');
+}
+
+.gallery__box-kitchen{
+    background-image: url('../resources/kitchen.png');
+}
+
+.gallery__box-nordic {
+    background-image: url('../resources/nordic.png');
+}
+
+.gallery__box-text {
     position: absolute;
     width: 443px;
-    top: 575px;
-    right: 832px;
-    bottom: 60px;
     left: 125px;
+    bottom: 60px;
     font-size: 30px;
     line-height: 41px;
     color: rgb(255, 255, 255);
+}
+
+.gallery__controls-wrapper {
+    position: absolute;
+    width: 100%;
+    bottom: 162px;
+}
+
+.gallery__controls {
+    display: flex;
+    column-gap: 14px;
+    padding-left: 125px;
+}
+
+.gallery__control-prev, .gallery__control-next {
+    width: 40px;
+    height: 40px;
+}
+
+.gallery__control-prev {
+    background: url('../resources/arrow-left.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.gallery__control-next {
+    background: url('../resources/arrow-right.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.gallery__control-prev:hover, .gallery__control-next:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+    .gallery__title {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .gallery__title-wrapper {
+        top: 80px;
+        left: 50px;
+    }
+
+    .gallery__slides {
+        height: 536px;
+    }
+
+    .gallery__box-text {
+        width: 377px;
+        left: 50px;
+        bottom: 79px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .gallery__controls {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .gallery__title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .gallery__title-wrapper {
+        top: 61px;
+        left: 12px;
+    }
+
+    .gallery__slides {
+        height: 408px;
+    }
+
+    .gallery__box-text {
+        width: 287px;
+        left: 13px;
+        bottom: 60px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .gallery__controls {
+        justify-content: space-between;
+        bottom: 50%;
+        padding-left: 7px;
+        padding-right: 12.5px;
+    }
 }

@@ -85,16 +85,11 @@
 
 .gallery__control-prev {
     background: url('../resources/arrow-left.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
 }
 
 .gallery__control-next {
-    background: url('../resources/arrow-right.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+    background: url('../resources/arrow-left.png');
+    transform: rotate(180deg);
 }
 
 .gallery__control-prev:hover, .gallery__control-next:hover {

@@ -27,7 +27,7 @@
     margin-left: 685px;
 }
 
-.about-us__link{
+.about__link{
     display: block;
     text-align: center;
     width: 255px;
@@ -40,7 +40,7 @@
     color: #FFFFFF;
 }
 
-.about-us__link:hover {
+.about__link:hover {
     cursor: pointer;
 }
 
@@ -67,7 +67,7 @@
     font-size: 30px;
     font-weight: 400;
     line-height: 153px;
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;
     border: 1px solid #AD1818;
     text-decoration: none;
     border-radius: 5px;
@@ -76,7 +76,7 @@
 .view-all-projects:hover {
     cursor: pointer;
     background-color: #AD1818;
-    color: #FFF;
+    color: #F5F5F5;
 }
 
 .services__button {
@@ -94,7 +94,7 @@
 }
 
 @media (max-width: 1199px) {
-    .about-us__link{
+    .about__link{
         width: 249px;
         height: 67px;
         font-size: 20px;
@@ -110,7 +110,7 @@
 }
 
 @media (max-width: 767px) {
-    .about-us__link{
+    .about__link{
         width: 100%;
         font-size: 16px;
         font-weight: 400;

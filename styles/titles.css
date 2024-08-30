@@ -20,7 +20,7 @@ h2 {
 }
 
 .feedback__heading {
-    margin-bottom: 13px;
+    margin-bottom: 30px;
     font-size: 45px;
     line-height: 61px;
 }
@@ -67,5 +67,9 @@ h2 {
         margin-bottom: 10px;
         font-size: 25px;
         line-height: 34px;
+    }
+
+    .contacts__heading {
+        margin-bottom: 57px;
     }
 }

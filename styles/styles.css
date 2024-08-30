@@ -5,67 +5,37 @@
 @import "./footer.css";
 @import "./header.css";
 @import "./nav.css";
-@import "./onebedroom.css";
+@import "./gallery.css";
 @import "./projects.css";
 @import "./services.css";
 @import "./titles.css";
-
+@import "./popup.css";
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
+    margin: 0 auto;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
+    background-color: #F5F5F5;
 }
 
-.section {
+.container {
     margin: 0 auto;
-    width: 1400px;
-}
-
-.section__white {
-    width: 1400px;
-    padding: 33px 125px 133px;
-    background-color: #FFFFFF;
-}
-
-.section-inner {
-    width: 1150px;
-    height: 3453px;
-}
-
-.section__black {
-    padding: 150px 124px 150px;
-    background-color: rgb(18, 18, 18);
+    padding: 0 15px;
+    max-width: 1180px;
 }
 
 @media (max-width: 1199px) {
-    .section, .section__white, .section__black, .section-inner {
+    .container {
         width: 100%;
     }
-
-    .section__white {
-        padding: 33px 17px 100px 15px;
-    }
-
-    .section__black {
-        padding: 150px 23px 150px 27px;
-    }
 }
-    
 
 @media (max-width: 767px) {
-    .section__white {
-        padding: 33px 14px 80px 13px;
-    }
-
-    .section__black {
-        padding: 80px 15px 80px 21px;
-    }
-
-    .section__feedback {
-        padding: 80px 13px 102px;
+    .container {
+        padding: 0 13px;
     }
 }

@@ -14,22 +14,59 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-                    <!-- <section class="nav__section">
-                        <div class="nav__container">
+                    <header class="header">
+                            <div class="container">
+                                <div class="header-inner">
+                                    <a href="#" class="logo-link">
+                                        <img class="logo" src="resources/metrika-logo.png" alt="Логотип Метрики">
+                                    </a>
+                                    <nav class="nav">
+                                        <ul class="nav__list">
+                                            <li class="nav__item">
+                                                <a href="#about-us" class="nav__link">О нас</a>
+                                            </li>
+                                            <li class="nav__item">
+                                                <a href="#projects" class="nav__link">Проекты</a>
+                                            </li>
+                                            <li class="nav__item">
+                                                <a href="#services" class="nav__link">Услуги</a>
+                                            </li>
+                                            <li class="nav__item">
+                                                <a href="#contacts" class="nav__link">Контакты</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <div class="js-burger-btn burger-btn"></div>
+                                </div>
+                            </div>
+                    </header>
+
+                    <div class="js-burger burger">
+                        <div class="burger__content">
                             <a href="#" class="logo-link">
                                 <img class="logo" src="resources/metrika-logo.png" alt="Логотип Метрики">
                             </a>
-                            <div class="nav">
-                                <a href="#about-us" class="nav__link">О нас</a>
-                                <a href="#projects" class="nav__link">Проекты</a>
-                                <a href="#services" class="nav__link">Услуги</a>
-                                <a href="#contacts" class="nav__link">Контакты</a>
+                            <nav class="burger-nav">
+                                <a href="#about-us" class="burger-nav__link">О нас</a>
+                                <a href="#projects" class="burger-nav__link">Проекты</a>
+                                <a href="#services" class="burger-nav__link">Услуги</a>
+                                <a href="#contacts" class="burger-nav__link">Контакты</a> 
+                            </nav>
+                            <div class="burger__contacts js-burger__content">
+                                <p class="burger__text">для связи:</p>
+                                
+                                <p class="burger-number">
+                                    <a class="burger-contacts__number" href="tel:+79358954535">+7 935 895-45-35</a>
+                                </p>
+                                <p class="burger-email">
+                                    <a class="burger-contacts__email" href="mailto:hello@mail.com">hello@mail.com</a>
+                                </p>
                             </div>
                         </div>
-                    </section> -->
+                    </div>
 
                     <main>
-                        <section class="header">
+                        <section class="hero">
                             <div class="container">
                                 <h1>Современные и стильные интерьеры для комфортной жизни</h1>
                                     <div class="room">
@@ -185,18 +222,23 @@
                                         <div class="js-popup__close-btn popup__close-btn"></div>
                                         <h3 class="popup__heading">Заказать услугу</h3>
                                         <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
-                                        <input 
-                                        class="input"
-                                        type="text"
-                                        placeholder="Имя">
-                                        <input 
-                                        class="input"
-                                        type="text"
-                                        placeholder="Электронная почта">
-                                        <input 
-                                        class="input"
-                                        type="text"
-                                        placeholder="Номер телефона">
+                                        <form autocomplete="on">
+                                            <input
+                                            class="input"
+                                            type="text"
+                                            name="name"
+                                            placeholder="Имя">
+                                            <input
+                                            class="input"
+                                            type="email"
+                                            name="email"
+                                            placeholder="Электронная почта">
+                                            <input
+                                            class="input"
+                                            type="tel"
+                                            name="phone"
+                                            placeholder="Номер телефона">
+                                        </form>
                                         <button class="popup__btn">Отправить</button>
                                     </div>
                                 </div>
@@ -304,6 +346,7 @@
                             </div>
                         </footer>
 
+                <script src="burger.js"></script>
                 <script src="popup.js"></script>
                 <script src="gallery.js"></script>
 </body>

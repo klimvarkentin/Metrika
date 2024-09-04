@@ -1,32 +1,3 @@
-.logo-link {
-    display: inline-block;
-    position: absolute;
-}
-
-.logo-link:hover {
-    cursor: pointer;
-}
-
-.nav__link {
-    display: inline-block;
-    margin-left: 58px;
-    height: 24px;
-    line-height: 24px;
-    font-size: 18px;
-    color: #121212;
-    text-align: left;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.nav__link:hover {
-    cursor: pointer;
-}
-
-.nav__link:first-child {
-    margin-left: 685px;
-}
-
 .about__link{
     display: block;
     text-align: center;

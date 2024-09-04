@@ -1,63 +1,136 @@
-.header {
-    padding-top: 70px;
+.body__fixed {
+    overflow: hidden;
 }
 
-.room {
-    position: relative;
+.header-inner {
     width: 100%;
-    height: 500px;
-    background-image: url('../resources/room.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+    padding-top: 33px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
-.room__text {
-    position: absolute;
-    left: 40px;
-    bottom: 40px;
-    width: 430px;
+.nav__list {
+    display: flex;
+    gap: 58px;
+}
+
+.nav__link {
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(18, 18, 18);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-link:hover {
+    cursor: pointer;
+}
+
+.nav__link:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.burger-btn {
+    display: none;
+}
+
+.burger {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.burger_open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.burger__content {
+    width: 274px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0 65px 30px;
+    overflow-y: auto;
+    background-color: #fff;
+    transition: transform 2s linear;
+    transform: translateX(100%);
+}
+
+.burger_open .burger__content {
+    transform: translateX(0);
+}
+
+.burger-nav {
+    margin-top: 50px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.burger-nav__link {
+    display: block;
+    font-size: 25px;
+    line-height: 34px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.burger__text {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.burger-contacts__number {
     font-size: 20px;
-    line-height: 27px;
-    color: #FFFFFF;
+    line-height: 45px;
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+}
+
+.burger-contacts__email {
+    font-size: 20px;
+    line-height: 60px;
+    color: rgb(18, 18, 18);
+    text-decoration: none;
 }
 
 @media (max-width: 1199px) {
-    .heading {
-        margin-bottom: 120px;
+  
+    .nav {
+        display: none;
     }
 
-    .room {
-        height: 400px;
-        background-image: url('../resources/room-tablet.png');
+    .burger-btn {
+        position: absolute;
+        top: 20px;
+        right: 5px;
+        z-index: 10;
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-image: url('../resources/burger-btn.png');
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: contain;
     }
 
-    .room__text {
-        left: 42px;
-        bottom: 30px;
-        width: 430px;
-        font-size: 20px;
-        line-height: 27px;
-    }
-}
-
-@media (max-width: 767px) {
-    .room__text {
-        left: 15px;
-        bottom: 15px;
-        width: 312px;
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-    .heading {
-        margin-bottom: 80px;
-    }
-}
-
-@media (max-width: 500px) {
-    .room {
-        height: 304px;
-        background-image: url('../resources/room-mobile.png');
+    .burger-btn_open {
+        background-image: url('../resources/popup_cross.png');
     }
 }
